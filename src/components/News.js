@@ -58,7 +58,7 @@ export default class News extends Component {
 				loading: false,
 			})
 			this.props.setProgress(100)
-		}, 200);
+		}, 100);
 	}
 
 	render() {
